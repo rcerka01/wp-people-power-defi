@@ -1,0 +1,19 @@
+node_modules
+.next
+
+<VirtualHost *:80>
+        ServerAdmin admin@peoplepowerde.fi
+        ServerName dev.peoplepowerde.fi
+        ServerAlias dev.peoplepowerde.fi
+        ProxyRequests Off
+
+        #ProxyPass / http://localhost:3000/
+        <Location />
+                ProxyPreserveHost On
+                ProxyPass http://peoplepowerde.fi:3000/
+                ProxyPassReverse http://peoplepowerde.fi:3000/
+        </Location>
+     # Uncomment the line below if your site uses SSL.
+     #SSLProxyEngine On
+</VirtualHost>
+
