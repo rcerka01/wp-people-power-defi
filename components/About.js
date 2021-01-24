@@ -26,6 +26,7 @@ class About extends Component {
                         <div>
                             <img src="/util/img/banner.jpg" alt="People Power" />
                         </div>
+                        <p>TEST</p>
                     </div>
                 </div>
             </div>
