@@ -496,6 +496,10 @@ a.profile:focus {
   .service .video-player .play:hover {
       /* background: url("../img/base/play-hover-60.png") no-repeat; */
   }
+  
+  .service .video-player .play:hover {
+      /* background: url("../img/base/play-hover-60.png") no-repeat; */
+  }
 }
 
 
@@ -771,14 +775,18 @@ a.profile:focus {
       height: 60px;
       width: 60px;
       left: 50%;
-      top: 50%;      /* background: url("../img/base/play-60.png") no-repeat; */
-
+      top: 50%;     
+    /* background: url("../img/base/play-60.png") no-repeat; */
       margin-left: -30px;
       margin-top: -30px;
   }
   
   .about .youtube-player .play:hover {
       /* background: url("../img/base/play-hover-60.png") no-repeat; */
+      top: 50%;
+      margin-left: -30px;
+      margin-top: -30px;
+      /* background: url("../img/base/play-60.png") no-repeat; */
   }
 }
 

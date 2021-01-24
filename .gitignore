@@ -1,6 +1,7 @@
 node_modules
 .next
 
+<<<<<<< HEAD
 <VirtualHost *:80>
         ServerAdmin admin@peoplepowerde.fi
         ServerName dev.peoplepowerde.fi
@@ -17,3 +18,5 @@ node_modules
      #SSLProxyEngine On
 </VirtualHost>
 
+=======
+>>>>>>> b882e8db7f5f96cf96b070c561d12a243ea71865
