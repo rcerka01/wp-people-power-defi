@@ -1,1 +1,1 @@
-# wp-people-power-defi
+# WP People Power DeFi
