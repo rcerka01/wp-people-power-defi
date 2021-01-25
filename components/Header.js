@@ -14,27 +14,25 @@ class Menu extends Component {
                                 </div>
                             </div>
                             <div class="col-lg-10">
-                            <div class="topbar">
-                            </div>
-                                <div class="navbar navbar-expand-lg bg-light navbar-light">
-                                    <a href="#" class="navbar-brand">MENU</a>
-                                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                                        <span class="navbar-toggler-icon"></span>
-                                    </button>
+                                <div class="topbar"></div>
+                                    <div class="navbar navbar-expand-lg bg-light navbar-light">
+                                        <a href="#" class="navbar-brand">MENU</a>
+                                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                                            <span class="navbar-toggler-icon"></span>
+                                        </button>
 
-                                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                                        <div class="navbar-nav ml-auto">
-                                            <a href="/" class="nav-item nav-link active">CAMPAIGNS</a>
-                                            <a href="/partnership" class="nav-item nav-link">PARTNERSHIP</a>
-                                            <a href="/roadmap" class="nav-item nav-link">ROADMAP</a>
+                                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                                            <div class="navbar-nav ml-auto">
+                                                <a href="/" class="nav-item nav-link active">OVERVIEW</a>
+                                                <a href="/partnership" class="nav-item nav-link">PARTNERS</a>
+                                                <a href="/roadmap" class="nav-item nav-link">ROADMAP</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            );
+                    </div>);
     }
 }
 
