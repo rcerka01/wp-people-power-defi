@@ -26,7 +26,6 @@ a.profile:hover,
 a.profile:active,
 a.profile:focus {
   color: #ab2308;
-  text-decoration: underline;
 }
 
 .profile {
@@ -162,7 +161,6 @@ a.profile:focus {
   .header .navbar-light a.nav-link:hover {
     color: #ab2308;
     font-weight: bold;
-    text-decoration: underline;
   }
 }
 
