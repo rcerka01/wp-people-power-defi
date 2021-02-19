@@ -23,9 +23,10 @@ class Menu extends Component {
 
                                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                                             <div class="navbar-nav ml-auto">
-                                                <a href="/" class="nav-item nav-link active">OVERVIEW</a>
-                                                <a href="/partnership" class="nav-item nav-link">PARTNERS</a>
-                                                <a href="/roadmap" class="nav-item nav-link">ROADMAP</a>
+                                                <a href="/" class="nav-item nav-link">WHITEPAPER</a>
+                                                <a href="/buy-ppd-tokens" class="nav-item nav-link active">BUY TOKENS</a>
+                                                <a href="/partnership" class="nav-item nav-link">PARTNERSHIP</a>
+                                                <a href="/roadmap" class="nav-item nav-link">PROJECTION</a>
                                             </div>
                                         </div>
                                     </div>
