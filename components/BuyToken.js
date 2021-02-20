@@ -22,7 +22,9 @@ class BuyToken extends Component {
 
                             <div class="alert alert-info" role="alert"style={{textAlign: 'center'}} >
                                 <strong>Price: 1.23 xDAI </strong><br />
-                                <strong>Total (hard cap):</strong> 54545000000000 / <strong>Available:</strong> 464564566666666
+                                <strong>Total (hard cap):</strong> 54545000000000 / <strong>Available:</strong> 464564566666666 <br />
+                                <a href="https://blockscout.com/poa/sokol/address/0x20013c256Af08187B86DDFaDa43B6D34987910C4/transactions"
+                                 target="_blank">0x20013c256Af08187B86DDFaDa43B6D34987910C4</a>
                             </div>
 
                             <div class="progress">
@@ -33,13 +35,13 @@ class BuyToken extends Component {
                             <br />
 
                             <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1"><img src="util/img/coin.png" width="25" /></span>
-                                <input type="text" class="form-control" type="number"  min="1" pattern="[0-9]" placeholder="Amount of PPD" aria-label="Amount PPD" aria-describedby="basic-addon1" />
+                                <span class="input-group-text" id="basic-addon1"><img src="util/img/coin.png" width="35" /></span>
+                                <input id="inputlg" class="form-control form-control-lg" type="number"  min="1" pattern="[0-9]" placeholder="Amount of PPD" aria-label="Amount PPD" aria-describedby="basic-addon1" />
                             </div>
 
                             <div style={{marginTop:10 +'px'}} class="form-group">
                                 <div class="col-sm-12 controls">
-                                    <a id="btn-buy" href="#" class="btn btn-primary">Buy PPD (ICO) Tokens</a>
+                                    <a id="btn-buy" href="#" class="btn btn-primary btn-lg">Buy PPD (ICO) Tokens</a>
                                 </div>
                             </div>
 
