@@ -25,8 +25,8 @@ class Menu extends Component {
                                             <div class="navbar-nav ml-auto">
                                                 <a href="/" class="nav-item nav-link">WHITEPAPER</a>
                                                 <a href="/buy-ppd-tokens" class="nav-item nav-link active">BUY TOKENS</a>
-                                                <a href="/partnership" class="nav-item nav-link">PARTNERSHIP</a>
-                                                <a href="/roadmap" class="nav-item nav-link">PROJECTION</a>
+                                                <a href="/partnership" class="nav-item nav-link">NEWS</a>
+                                                <a href="/roadmap" class="nav-item nav-link">ROADMAP</a>
                                             </div>
                                         </div>
                                     </div>
