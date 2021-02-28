@@ -3,30 +3,30 @@ import React, { Component } from 'react';
 class Menu extends Component {
     render() {
         return (
-                <div class="header">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <div class="col-lg-2">
-                                <div class="brand">
+                <div className="header">
+                    <div className="container-fluid">
+                        <div className="row align-items-center">
+                            <div className="col-lg-2">
+                                <div className="brand">
                                     <a href="/">
                                         <img src="util/img/logo.png" alt="Logo" />
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-10">
-                                <div class="topbar"></div>
-                                    <div class="navbar navbar-expand-lg bg-light navbar-light">
-                                        <a href="#" class="navbar-brand">MENU</a>
-                                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                                            <span class="navbar-toggler-icon"></span>
+                            <div className="col-lg-10">
+                                <div className="topbar"></div>
+                                    <div className="navbar navbar-expand-lg bg-light navbar-light">
+                                        <a href="#" className="navbar-brand">MENU</a>
+                                        <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                                            <span className="navbar-toggler-icon"></span>
                                         </button>
 
-                                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                                            <div class="navbar-nav ml-auto">
-                                                <a href="/" class="nav-item nav-link">WHITEPAPER</a>
-                                                <a href="/buy-ppd-tokens" class="nav-item nav-link active">BUY TOKENS</a>
-                                                <a href="/partnership" class="nav-item nav-link">NEWS</a>
-                                                <a href="/roadmap" class="nav-item nav-link">ROADMAP</a>
+                                        <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                                            <div className="navbar-nav ml-auto">
+                                                <a href="/" className="nav-item nav-link">WHITEPAPER</a>
+                                                <a href="/buy-ppd-tokens" className="nav-item nav-link active">BUY TOKENS</a>
+                                                <a href="/partnership" className="nav-item nav-link">NEWS</a>
+                                                <a href="/roadmap" className="nav-item nav-link">ROADMAP</a>
                                             </div>
                                         </div>
                                     </div>
