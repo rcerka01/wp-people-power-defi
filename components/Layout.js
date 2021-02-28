@@ -4,7 +4,7 @@ import Header from './Header';
 export default props => {
 
     return (
-        <div class="wrapper">
+        <div className="wrapper">
           <Header />
           { props.children }
         </ div>);
