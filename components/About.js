@@ -7,7 +7,9 @@ class About extends Component {
                 <div className="container-fluid">
                     <div className="row align-items-center">
                         <div>
-                            <h2 style={{paddingBottom:20}}>BLOCKCHAIN POWERED <span>GREEN</span> ENERGY INVESTING </ h2>
+                            <h2 style={{paddingBottom:20},{textAlign: 'center'}}>
+                                BLOCKCHAIN POWERED FRACTIONAL INVESTMENT<br /> IN <span>GREEN</span> ENERGY PROJECTS
+                            </ h2>
                         </div>
                         <div>
                             <img src="/util/img/banner.jpg" alt="People Power" />

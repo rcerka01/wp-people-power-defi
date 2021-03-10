@@ -12,21 +12,23 @@ class Roadmap extends Component {
                 <div class="story">
                     <div class="container-fluid">
                         <div class="section-header">
-                            <h2>Story</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium ornare velit non</p>
+                            <h2>Roadmap</h2>
+                            <p>As we progress on our journey, we will update and upgrade the roadmap to reflect the progress.</p>
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="story-container">
                                     <div class="story-end">
-                                        <p>Now</p>
+                                        <p>2021</p>
                                     </div>
                                     <div class="story-continue">
+
+
+
 
                                         <div class="row story-right">
                                             <div class="col-md-6">
                                                 <p class="story-date">
-                                                    01 Jun 2020
                                                 </p>
                                             </div>
                                             <div class="col-md-6">
@@ -35,53 +37,54 @@ class Roadmap extends Component {
                                                         <i class="fa fa-gift"></i>
                                                     </div>
                                                     <div class="story-text">
-                                                        <h3>Lorem ipsum dolor</h3>
-                                                        <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                                        <h3>Q1</h3>
+                                                        <p>
+                                                            <ul>
+                                                                <li>launch website for ICO token sale and whitepaper (primary version)</li>
+                                                                <li>create community on social media channels</li>
+                                                            </ul> 
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="row story-left">
-                                            <div class="col-md-6 d-md-none d-block">
-                                                <p class="story-date">
-                                                    01 Jan 2020
-                                                </p>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="story-box">
-                                                    <div class="story-icon d-md-none d-block">
-                                                        <i class="fa fa-business-time"></i>
-                                                    </div>
-                                                    <div class="story-text">
-                                                        <h3>Lorem ipsum dolor</h3>
-                                                        <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
-                                                    </div>
-                                                    <div class="story-icon d-md-block d-none">
-                                                        <i class="fa fa-business-time"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 d-md-block d-none">
-                                                <p class="story-date">
-                                                    01 Jan 2020
-                                                </p>
-                                            </div>
-                                        </div>
 
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <div class="story-year">
-                                                    <p>2020</p>
-                                                </div>
-                                            </div>
-                                        </div>
+
 
                                         <div class="row story-right">
                                             <div class="col-md-6">
                                                 <p class="story-date">
-                                                    01 Dec 2019
                                                 </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="story-box">
+                                                    <div class="story-icon">
+                                                        <i class="fa fa-business-time"></i>
+                                                    </div>
+                                                    <div class="story-text">
+                                                        <h3>Q2</h3>
+                                                        <p>
+                                                            <ul>
+                                                                <li>soft launch smart contract for PPD token and token sale</li>
+                                                                <li>launch whitepaper (settled version)</li>
+                                                                <li>gain online visibility and expand social media channels</li>
+                                                                <li>establish marketing strategy</li>
+                                                            </ul> 
+                                                        </p>
+                                                    </div>
+           
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="row story-right">
+                                            <div class="col-md-6">
+                                                <p class="story-date">
+=                                                </p>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="story-box">
@@ -89,39 +92,53 @@ class Roadmap extends Component {
                                                         <i class="fa fa-briefcase"></i>
                                                     </div>
                                                     <div class="story-text">
-                                                        <h3>Lorem ipsum dolor</h3>
-                                                        <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                                        <h3>Q3</h3>
+                                                        <p>
+                                                            <ul>
+                                                                <li>community involvement in projects (community members paid in PPD to do tasks for the company)</li>
+                                                                <li>increase marketing of the token sale</li>
+                                                            </ul> 
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="row story-left">
-                                            <div class="col-md-6 d-md-none d-block">
+
+
+
+                                        <div class="row story-right">
+                                            <div class="col-md-6">
                                                 <p class="story-date">
-                                                    01 Sep  2019
                                                 </p>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="story-box">
-                                                    <div class="story-icon d-md-none d-block">
+                                                    <div class="story-icon">
                                                         <i class="fa fa-cogs"></i>
                                                     </div>
                                                     <div class="story-text">
-                                                        <h3>Lorem ipsum dolor</h3>
-                                                        <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                                        <h3>Q4</h3>
+                                                        <p>
+                                                            <ul>
+                                                                <li>extensive marketing of token sale</li>
+                                                                <li>confirm first project location and costs</li>
+                                                                <li>development of the People Power Defi web platform begins</li>
+                                                            </ul> 
+                                                        </p>
                                                     </div>
-                                                    <div class="story-icon d-md-block d-none">
-                                                        <i class="fa fa-cogs"></i>
-                                                    </div>
+
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 d-md-block d-none">
-                                                <p class="story-date">
-                                                    01 Sep  2019
-                                                </p>
-                                            </div>
+
                                         </div>
+
+                                        <div class="story-start">
+                                            <p>2022</p>
+                                        </div>
+
+
+
 
                                         <div class="row story-right">
                                             <div class="col-md-6">
@@ -132,51 +149,19 @@ class Roadmap extends Component {
                                             <div class="col-md-6">
                                                 <div class="story-box">
                                                     <div class="story-icon">
-                                                        <i class="fa fa-running"></i>
+                                                        <i class="fa fa-cogs"></i>
                                                     </div>
                                                     <div class="story-text">
-                                                        <h3>Lorem ipsum dolor</h3>
-                                                        <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                                        <h3>Q1</h3>
+                                                        <p>
+                                                            <ul>
+                                                                <li>finish token sale (if enough money is raised)</li>
+                                                                <li>once token sale is complete set up the first project</li>
+                                                                <li>launch alpha release of the People Power Defi platform</li>
+                                                            </ul> 
+                                                        </p>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row story-left">
-                                            <div class="col-md-6 d-md-none d-block">
-                                                <p class="story-date">
-                                                    01 Mar 2019
-                                                </p>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="story-box">
-                                                    <div class="story-icon d-md-none d-block">
-                                                        <i class="fa fa-home"></i>
-                                                    </div>
-                                                    <div class="story-text">
-                                                        <h3>Lorem ipsum dolor</h3>
-                                                        <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
-                                                    </div>
-                                                    <div class="story-icon d-md-block d-none">
-                                                        <i class="fa fa-home"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 d-md-block d-none">
-                                                <p class="story-date">
-                                                    01 Mar 2019
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="story-start">
-                                        <p>Launch</p>
-                                    </div>
-                                    <div class="story-launch">
-                                        <div class="story-box">
-                                            <div class="story-text">
-                                                <h3>Launched our company on 01 Jan 2019</h3>
-                                                <p>Lorem ipsum dolor sit amet</p>
                                             </div>
                                         </div>
                                     </div>
@@ -184,7 +169,7 @@ class Roadmap extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>      
             </ div>
         );
     }

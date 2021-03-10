@@ -1,98 +1,110 @@
 import React, { Component } from 'react';
-import blockchain from '../blockchain/factory';
-import detectEthereumProvider from '@metamask/detect-provider'
+// import blockchain from '../blockchain/factory';
+// import detectEthereumProvider from '@metamask/detect-provider'
 
 class BuyToken extends Component {
 
-    constructor(props) {
-        super(props);
+//     constructor(props) {
+//         super(props);
 
-        this.state = {name: ''}
-        this.state = {natokenPriceme: ''}
-        this.state = {totalSupply: ''}
-        this.state = {tokensSold: ''}
-        this.state = {tokenContract: ''}
-        this.state = {tokensAllocated: ''}
-        this.state = {progress: ''}
-        this.state = {currentAccount: ''}        
-        this.state = {ppdBalance: ''}   
-        this.state = {inputField: ''}   
+//         this.state = {name: ''}
+//         this.state = {natokenPriceme: ''}
+//         this.state = {totalSupply: ''}
+//         this.state = {tokensSold: ''}
+//         this.state = {tokenContract: ''}
+//         this.state = {tokenSaleContract: ''}
+//         this.state = {tokensAllocated: ''}
+//         this.state = {progress: ''}
+//         this.state = {currentAccount: ''}        
+//         this.state = {ppdBalance: ''}   
+//         this.state = {inputField: ''}   
         
-        this.handleAccountsChanged = this.handleAccountsChanged.bind(this);
-        this.updateInputValue = this.updateInputValue.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
-        this.onKeyPress = this.onKeyPress.bind(this);
-    }
+//         this.handleAccountsChanged = this.handleAccountsChanged.bind(this);
+//         this.updateInputValue = this.updateInputValue.bind(this);
+//         this.handleSubmit = this.handleSubmit.bind(this);
+//         this.onKeyPress = this.onKeyPress.bind(this);
+//     }
 
-    // loader
-    async UNSAFE_componentWillMount() {
-        const metamaskProvider = await detectEthereumProvider();
+//     // loader
+//     async UNSAFE_componentWillMount() {
+//         const metamaskProvider = await detectEthereumProvider();
 
-        if (metamaskProvider) {
-            metamaskProvider
-            .request({ method: 'eth_accounts' })
-            .then(this.handleAccountsChanged)
-            .catch((err) => {
-                console.error(err);
-            });
+//         if (metamaskProvider) {
+//             metamaskProvider
+//             .request({ method: 'eth_accounts' })
+//             .then(this.handleAccountsChanged)
+//             .catch((err) => {
+//                 console.error(err);
+//             });
 
-            metamaskProvider
-            .on('accountsChanged', this.handleAccountsChanged);
-        }
+//             metamaskProvider
+//             .on('accountsChanged', this.handleAccountsChanged);
+//         }
 
-        const name = await blockchain.ppt.methods.name().call();
-        const tokenPrice = await blockchain.ppts.methods.tokenPrice().call();
-        const totalSupply = await blockchain.ppt.methods.totalSupply().call();
-        const tokensSold = await blockchain.ppts.methods.tokensSold().call();
-        const tokenContract = await blockchain.ppts.methods.tokenContract().call();
-        const tokensAllocated = 10000000
+//         const name = await blockchain.ppt.methods.name().call();
+//         const tokenPrice = await blockchain.ppts.methods.tokenPrice().call();
+//         const totalSupply = await blockchain.ppt.methods.totalSupply().call();
+//         const tokensSold = await blockchain.ppts.methods.tokensSold().call();
+//         const tokenContract = blockchain.ppt._address;
+//         const tokenSaleContract = blockchain.ppts._address;
+//         const tokensAllocated = 10000000
  
-        this.setState({name: name});
-        this.setState({tokenPrice: tokenPrice});
-        this.setState({totalSupply: totalSupply});
-        this.setState({tokensSold: tokensSold});
-        this.setState({tokenContract: tokenContract});
-        this.setState({tokensAllocated: tokensAllocated});
-        this.setState({progress: 100 * tokensSold / tokensAllocated});
-    }
+//         this.setState({name: name});
+//         this.setState({tokenPrice: tokenPrice});
+//         this.setState({totalSupply: totalSupply});
+//         this.setState({tokensSold: tokensSold});
+//         this.setState({tokenContract: tokenContract});
+//         this.setState({tokenSaleContract: tokenSaleContract});
+//         this.setState({tokensAllocated: tokensAllocated});
+//         this.setState({progress: 100 * tokensSold / tokensAllocated});
+//     }
 
-    // metamask
-    handleAccountsChanged(accounts) {
-        if (accounts.length === 0) {
-            console.log('Please connect to MetaMask.');
-        } else if (accounts[0] !== this.state.currentAccount) {
-            this.setState({currentAccount: accounts[0]});
-        }
-    }
+//     // metamask
+//     handleAccountsChanged(accounts) {
+//         if (accounts.length === 0) {
+//             console.log('Please connect to MetaMask.');
+//         } else if (accounts[0] !== this.state.currentAccount) {
+//             this.setState({currentAccount: accounts[0]});
+//         }
+//     }
 
-   // submit form 
-   async handleSubmit(event) {
-        event.preventDefault();
-        alert(this.state.inputField)
-    }
+//    // submit form 
+//    async handleSubmit(event) {
+//         event.preventDefault();
+//         blockchain.ppts.methods.buyTokens(this.state.inputField).send({
+//                 from: this.state.currentAccount,
+//                 value: this.state.inputField * this.state.tokenPrice,
+//                 gas: 500000 
+//         });
+//     }
 
-    // prevent input from letters
-    onKeyPress(evt) {
-        var theEvent = evt || window.event;
-        if (theEvent.type === 'paste') {
-            key = event.clipboardData.getData('text/plain');
-        } else {
-            var key = theEvent.keyCode || theEvent.which;
-            key = String.fromCharCode(key);
-        }
-        var regex = /[0-9]|\./;
-        if( !regex.test(key) ) {
-          theEvent.returnValue = false;
-          if(theEvent.preventDefault) theEvent.preventDefault();
-        }
-    }
+//     // prevent input from letters
+//     onKeyPress(evt) {
+//         var theEvent = evt || window.event;
+//         if (theEvent.type === 'paste') {
+//             key = event.clipboardData.getData('text/plain');
+//         } else {
+//             var key = theEvent.keyCode || theEvent.which;
+//             key = String.fromCharCode(key);
+//         }
+//         var regex = /[0-9]|\./;
+//         if( !regex.test(key) ) {
+//           theEvent.returnValue = false;
+//           if(theEvent.preventDefault) theEvent.preventDefault();
+//         }
+//     }
 
-    // amount of PPD to buy to state
-    updateInputValue(event){
-        this.setState({inputField: event.target.value});   
-    }
+//     // amount of PPD to buy to state
+//     updateInputValue(event){
+//         this.setState({inputField: event.target.value});   
+//     }
 
     render() {
+
+        // function createContractHref(address) {
+        //     return "https://blockscout.com/poa/sokol/address/" + address + "/transactions"
+        // }
+
         return (
         <div>
             <div>
@@ -104,28 +116,41 @@ class BuyToken extends Component {
                         <div className="col-12">
                             
                             <h2 className="section-title">Buy PPD tokens </h2>
+
+                            <p style={{textAlign:'center'}}>
+                                Our token sale will be launching soon. <br />For all future announcements about our token sale and keep up-to date with all of our progress make sure that you follow our social media channels.
+                                <br />
+                                <a href='https://twitter.com/peoplepowerdefi' target="_blank">TWITTER</a><br />
+                                <a href='https://t.me/joinchat/u8mpa_EuHGcyZWFk' target="_blank">TELEGRAM</a>
+                            </p>
                             
-                            <p>
+                            {/* <p>
                                 Lorem ipsum dolor sit amet, posuere leo elit id augue. Donec ullamcorper tortor et tellus convallis maximus.
                                 Lorem ipsum dolor sit amet, posuere leo elit id augue. Donec ullamcorper tortor et tellus convallis maximus.
                             </p>
 
                             <div className="alert alert-info" role="alert"style={{textAlign: 'center'}} >
-                            <strong>Price: { this.state.tokenPrice / 100000 } xDAI </strong><br />
-                            PPD coins in total: { this.state.totalSupply } <br />
+                                <strong>Price: { this.state.tokenPrice / 100000 } xDAI </strong><br />
+                                PPD coins in total: { this.state.totalSupply } <br />
                                 <strong>Total allocated for ICO (hard cap):</strong> { this.state.tokensAllocated }/ <strong>Available:</strong> { this.state.tokensAllocated - this.state.tokensSold }<br />
-                                Token Contract: <a href="https://blockscout.com/poa/sokol/address/0x20013c256Af08187B86DDFaDa43B6D34987910C4/transactions"
-                                 target="_blank"> {this.state.tokenContract}</a><br />
-                                 Your Account: <strong>{this.state.currentAccount}</strong><br />
-                                 Your PPD balance: <strong>{this.state.ppdBalance}</strong><br />
+                                Token Contract: <a href={createContractHref(this.state.tokenContract)}
+                                    target="_blank"> {this.state.tokenContract}</a><br />
+                                Token Sale Contract: <a href={createContractHref(this.state.tokenSaleContract)}
+                                    target="_blank"> {this.state.tokenSaleContract}</a><br />
                             </div>
 
                             <div className="progress">
                                 <div className="progress-bar" role="progressbar" style={{width: this.state.progress + '%'}} aria-valuenow={this.state.progress} aria-valuemin="0" aria-valuemax="100">{this.state.progress+'%'}</div>
                             </div>
+ 
+                            <br />
+
+                            <div className="alert alert-info" role="alert"style={{textAlign: 'center'}} >
+                                Your Account: <strong>{this.state.currentAccount}</strong><br />
+                                Your PPD balance: <strong>{this.state.ppdBalance}</strong><br />
+                            </div>
 
                             <hr />
-                            <br />
 
                             <form id="buy-ppd" role="form">
 
@@ -140,7 +165,7 @@ class BuyToken extends Component {
                                     </div>
                                 </div>
 
-                            </form>
+                            </form> */}
 
                         </div>
                     </div>
