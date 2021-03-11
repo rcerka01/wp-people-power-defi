@@ -153,7 +153,7 @@ class Roadmap extends Component {
                                                             <ul>
                                                                 <li>finish token sale (if enough money is raised)</li>
                                                                 <li>once token sale is complete set up the first project</li>
-                                                                <li>launch alpha release of the People Power Defi platform</li>
+                                                                <li>launch pre-alpha release of the People Power Defi platform</li>
                                                             </ul> 
                                                         </p>
                                                     </div>
