@@ -20,9 +20,9 @@ class MyDocument extends Document {
           <NextScript />
             <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-            <script src="../util/lib/slick/slick.min.js" type="text/javascript" />
+            {/* <script src="../util/lib/slick/slick.min.js" type="text/javascript" />
             <script src="../util/lib/isotope/isotope.pkgd.min.js" type="text/javascript" />
-            <script src="../util/lib/lightbox/js/lightbox.min.js" type="text/javascript" />
+            <script src="../util/lib/lightbox/js/lightbox.min.js" type="text/javascript" /> */}
             <script src="../util/js/main.js" type="text/javascript" />
         </body>
       </Html>

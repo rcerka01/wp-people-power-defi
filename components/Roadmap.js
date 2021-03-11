@@ -4,12 +4,9 @@ class Roadmap extends Component {
 
     render() {
         return (
-        <div>
-            <div>
-                <img src="/util/img/banner.jpg" alt="People Power" />
-            </div>
+                <div class="hero">
+                    <img style={{paddingBottom:10}} src="/util/img/banner.jpg" alt="People Power" />
 
-                <div class="story">
                     <div class="container-fluid">
                         <div class="section-header">
                             <h2>Roadmap</h2>
@@ -17,26 +14,26 @@ class Roadmap extends Component {
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="story-container">
-                                    <div class="story-end">
+                                <div class="hero-container">
+                                    <div class="hero-end">
                                         <p>2021</p>
                                     </div>
-                                    <div class="story-continue">
+                                    <div class="hero-continue">
 
 
 
 
-                                        <div class="row story-right">
+                                        <div class="row hero-right">
                                             <div class="col-md-6">
-                                                <p class="story-date">
+                                                <p class="hero-date">
                                                 </p>
                                             </div>
                                             <div class="col-md-6">
-                                                <div class="story-box">
-                                                    <div class="story-icon">
+                                                <div class="hero-box">
+                                                    <div class="hero-icon">
                                                         <i class="fa fa-gift"></i>
                                                     </div>
-                                                    <div class="story-text">
+                                                    <div class="hero-text">
                                                         <h3>Q1</h3>
                                                         <p>
                                                             <ul>
@@ -52,17 +49,17 @@ class Roadmap extends Component {
 
 
 
-                                        <div class="row story-right">
+                                        <div class="row hero-right">
                                             <div class="col-md-6">
-                                                <p class="story-date">
+                                                <p class="hero-date">
                                                 </p>
                                             </div>
                                             <div class="col-md-6">
-                                                <div class="story-box">
-                                                    <div class="story-icon">
+                                                <div class="hero-box">
+                                                    <div class="hero-icon">
                                                         <i class="fa fa-business-time"></i>
                                                     </div>
-                                                    <div class="story-text">
+                                                    <div class="hero-text">
                                                         <h3>Q2</h3>
                                                         <p>
                                                             <ul>
@@ -81,17 +78,17 @@ class Roadmap extends Component {
 
 
 
-                                        <div class="row story-right">
+                                        <div class="row hero-right">
                                             <div class="col-md-6">
-                                                <p class="story-date">
-=                                                </p>
+                                                <p class="hero-date">
+                                                </p>
                                             </div>
                                             <div class="col-md-6">
-                                                <div class="story-box">
-                                                    <div class="story-icon">
+                                                <div class="hero-box">
+                                                    <div class="hero-icon">
                                                         <i class="fa fa-briefcase"></i>
                                                     </div>
-                                                    <div class="story-text">
+                                                    <div class="hero-text">
                                                         <h3>Q3</h3>
                                                         <p>
                                                             <ul>
@@ -107,17 +104,17 @@ class Roadmap extends Component {
 
 
 
-                                        <div class="row story-right">
+                                        <div class="row hero-right">
                                             <div class="col-md-6">
-                                                <p class="story-date">
+                                                <p class="hero-date">
                                                 </p>
                                             </div>
                                             <div class="col-md-6">
-                                                <div class="story-box">
-                                                    <div class="story-icon">
+                                                <div class="hero-box">
+                                                    <div class="hero-icon">
                                                         <i class="fa fa-cogs"></i>
                                                     </div>
-                                                    <div class="story-text">
+                                                    <div class="hero-text">
                                                         <h3>Q4</h3>
                                                         <p>
                                                             <ul>
@@ -133,24 +130,24 @@ class Roadmap extends Component {
 
                                         </div>
 
-                                        <div class="story-start">
+                                        <div class="hero-start">
                                             <p>2022</p>
                                         </div>
 
 
 
 
-                                        <div class="row story-right">
+                                        <div class="row hero-right">
                                             <div class="col-md-6">
-                                                <p class="story-date">
+                                                <p class="hero-date">
                                                 </p>
                                             </div>
                                             <div class="col-md-6">
-                                                <div class="story-box">
-                                                    <div class="story-icon">
+                                                <div class="hero-box">
+                                                    <div class="hero-icon">
                                                         <i class="fa fa-cogs"></i>
                                                     </div>
-                                                    <div class="story-text">
+                                                    <div class="hero-text">
                                                         <h3>Q1</h3>
                                                         <p>
                                                             <ul>
@@ -169,7 +166,6 @@ class Roadmap extends Component {
                         </div>
                     </div>
                 </div>      
-            </ div>
         );
     }
 

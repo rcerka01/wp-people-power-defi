@@ -106,15 +106,14 @@ class BuyToken extends Component {
         // }
 
         return (
-        <div>
-            <div>
-                <img src="/util/img/banner.jpg" alt="People Power" />
-            </div>
-            <div className="single">
+            <div className="hero">
+                <img style={{paddingBottom:10}} src="/util/img/banner.jpg" alt="People Power" />
+
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            
+
+                            <br />
                             <h2 className="section-title">Buy PPD tokens </h2>
 
                             <p style={{textAlign:'center'}}>
@@ -172,7 +171,6 @@ class BuyToken extends Component {
                     </div>
                 </div>
             </div>
-        </div>
         );
     }
 

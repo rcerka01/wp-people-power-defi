@@ -5,12 +5,9 @@ class News extends Component {
     render() {
 
         return (
-        <div>
-            <div>
-                <img src="/util/img/banner.jpg" alt="People Power" />
-            </div>
+            <div class="hero">
+                <img style={{paddingBottom:10}} src="/util/img/banner.jpg" alt="People Power" />
 
-            <div class="single">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -67,8 +64,6 @@ class News extends Component {
                     </div>
                 </div>
             </div>
-
-        </div>
         );
     }
 
