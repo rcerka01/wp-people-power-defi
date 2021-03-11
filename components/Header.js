@@ -15,12 +15,9 @@ class Menu extends Component {
                             </div>
                             <div class="col-lg-10">
                                 <div class="topbar">
-
-                                    <div class="topbar-col">
-                                        <a href="mailto:info@peoplepowerde.fi"><i class="fa fa-envelope"></i>info@peoplepowerde.fi</a>
-                                    </div>
                                     <div class="topbar-col">
                                         <div class="topbar-social">
+                                            <a href="mailto:info@peoplepowerde.fi"><i class="fa fa-envelope"></i></a>
                                             <a href="https://twitter.com/peoplepowerdefi"><i class="fab fa-twitter"></i></a>
                                             <a href="https://t.me/joinchat/u8mpa_EuHGcyZWFk"><i class="fab fa-telegram"></i></a>
                                         </div>
