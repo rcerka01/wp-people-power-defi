@@ -143,7 +143,6 @@ class Roadmap extends Component {
                                         <div class="row story-right">
                                             <div class="col-md-6">
                                                 <p class="story-date">
-                                                    01 Jun 2019
                                                 </p>
                                             </div>
                                             <div class="col-md-6">
