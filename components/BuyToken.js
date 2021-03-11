@@ -120,8 +120,9 @@ class BuyToken extends Component {
                             <p style={{textAlign:'center'}}>
                                 Our token sale will be launching soon. <br />For all future announcements about our token sale and keep up-to date with all of our progress make sure that you follow our social media channels.
                                 <br />
-                                <a href='https://twitter.com/peoplepowerdefi' target="_blank">TWITTER</a><br />
-                                <a href='https://t.me/joinchat/u8mpa_EuHGcyZWFk' target="_blank">TELEGRAM</a>
+                                <br />
+                                <a href='https://twitter.com/peoplepowerdefi' target="_blank" style={{padding:15}}><i class="fab fa-twitter fa-2x"></i></a>
+                                <a href='https://t.me/joinchat/u8mpa_EuHGcyZWFk' target="_blank" style={{padding:15}}><i class="fab fa-telegram fa-2x"></i></a>
                             </p>
                             
                             {/* <p>

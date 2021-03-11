@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import Vision from '../components/Vision';
+import News from '../components/News';
 
 export default () => {
     return (
         <Layout>
-            <Vision />
+            <News />
         </ Layout>
     );
 }

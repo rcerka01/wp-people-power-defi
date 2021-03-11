@@ -13,27 +13,39 @@ class Menu extends Component {
                                     </a>
                                 </div>
                             </div>
-                            <div className="col-lg-10">
-                                <div className="topbar"></div>
-                                    <div className="navbar navbar-expand-lg bg-light navbar-light">
-                                        <a href="#" className="navbar-brand">MENU</a>
-                                        <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                                            <span className="navbar-toggler-icon"></span>
-                                        </button>
+                            <div class="col-lg-10">
+                                <div class="topbar">
 
-                                        <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                                            <div className="navbar-nav ml-auto">
-                                                <a href="/" className="nav-item nav-link">WHITEPAPER</a>
-                                                <a href="/buy-ppd-tokens" className="nav-item nav-link active">BUY TOKENS</a>
-                                                <a href="/partnership" className="nav-item nav-link">NEWS</a>
-                                                <a href="/roadmap" className="nav-item nav-link">ROADMAP</a>
-                                            </div>
+                                    <div class="topbar-col">
+                                        <a href="mailto:info@peoplepowerde.fi"><i class="fa fa-envelope"></i>info@peoplepowerde.fi</a>
+                                    </div>
+                                    <div class="topbar-col">
+                                        <div class="topbar-social">
+                                            <a href="https://twitter.com/peoplepowerdefi"><i class="fab fa-twitter"></i></a>
+                                            <a href="https://t.me/joinchat/u8mpa_EuHGcyZWFk"><i class="fab fa-telegram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="navbar navbar-expand-lg bg-light navbar-light">
+                                    <a href="#" className="navbar-brand">MENU</a>
+                                    <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                                        <span className="navbar-toggler-icon"></span>
+                                    </button>
+
+                                    <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                                        <div className="navbar-nav ml-auto">
+                                            <a href="/" className="nav-item nav-link">WHITEPAPER</a>
+                                            <a href="/buy-ppd-tokens" className="nav-item nav-link active">BUY TOKENS</a>
+                                            <a href="/news" className="nav-item nav-link">NEWS</a>
+                                            <a href="/roadmap" className="nav-item nav-link">ROADMAP</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>);
+                    </div>
+                </div>);
     }
 }
 

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Partner from '../components/Partner';
 
-class Partners extends Component {
+class News extends Component {
 
     render() {
+
         return (
-<div>
+        <div>
             <div>
                 <img src="/util/img/banner.jpg" alt="People Power" />
             </div>
@@ -14,7 +14,16 @@ class Partners extends Component {
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2 class="section-title">This is Partnetrs... </h2>
+                            <h2 class="section-title">NEWS </h2>
+                            <p style={{textAlign:'center'}}>
+                            Read all of our latest blog posts, news and catch up with what other people are saying about us.<br />
+                            To be sure you never miss an update make sure to follow us on <a href='https://twitter.com/peoplepowerdefi' target="_blank">Twitter</a> and join our <a href='https://t.me/joinchat/u8mpa_EuHGcyZWFk' target="_blank">Telegram</a> chanel.
+                            <br />
+                            <br />
+                                <a href='https://twitter.com/peoplepowerdefi' target="_blank" style={{padding:15}}><i class="fab fa-twitter fa-2x"></i></a>
+                                <a href='https://t.me/joinchat/u8mpa_EuHGcyZWFk' target="_blank" style={{padding:15}}><i class="fab fa-telegram fa-2x"></i></a>
+                            </p>
+                            {/*
                             <h3>Lorem ipsum dolor</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit. Nam congue molestie nibh in venenatis. Etiam non dui vel purus mollis consectetur. Sed at cursus lectus, sed iaculis lorem. Suspendisse venenatis est eu neque elementum, a accumsan tortor scelerisque. Nullam id erat arcu. Morbi suscipit commodo tortor non efficitur. Ut pretium sollicitudin lorem quis laoreet. Nulla vestibulum ante ut tellus hendrerit, ac condimentum sapien vehicula. Fusce dapibus, nulla non venenatis pretium, purus mauris vehicula elit, at posuere leo elit id augue. Donec ullamcorper tortor et tellus convallis maximus.
@@ -53,16 +62,16 @@ class Partners extends Component {
                                         <td>Table Cell</td>
                                     </tr>
                                 </tbody>
-                            </table>
-                        </div>
+                            </table>*/}
+                        </div> 
                     </div>
                 </div>
             </div>
 
         </div>
-            );
+        );
     }
 
 }
 
-export default Partners;
+export default News;
