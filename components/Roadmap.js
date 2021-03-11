@@ -41,7 +41,7 @@ class Roadmap extends Component {
                                                         <p>
                                                             <ul>
                                                                 <li>launch website for ICO token sale and whitepaper (primary version)</li>
-                                                                <li>create community on social media channels</li>
+                                                                <li>create social media channels</li>
                                                             </ul> 
                                                         </p>
                                                     </div>
