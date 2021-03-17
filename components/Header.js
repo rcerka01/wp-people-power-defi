@@ -33,7 +33,7 @@ class Menu extends Component {
                                     <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                                         <div className="navbar-nav ml-auto">
                                             <a href="/" className="nav-item nav-link">WHITEPAPER</a>
-                                            <a href="/buy-ppd-tokens" className="nav-item nav-link active">BUY TOKENS</a>
+                                            <a href="/buy-ppd-tokens" className="nav-item nav-link active">TOKEN SALE</a>
                                             <a href="/news" className="nav-item nav-link">NEWS</a>
                                             <a href="/roadmap" className="nav-item nav-link">ROADMAP</a>
                                         </div>
